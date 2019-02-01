@@ -8,3 +8,9 @@ body{
 header {
     background-color: #0A1A21;
 }
+h1 {
+    text-align: center;
+}
+ul, ol {
+    list-style: none;
+}
