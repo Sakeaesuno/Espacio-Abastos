@@ -4,4 +4,17 @@
 /* Esta página se desarrolla los estilos de la página web a realizar       */
 body{
     background-color: white;
+    font-family: sans-serif;
+}
+header {
+    background-color: #0A1A21;
+}
+h1 {
+    color: rgb(109, 214, 233);
+    text-align: center;
+    text-shadow: 5px solid rgb(0, 255, 255);
+    font-size: 200%;
+}
+ul, ol {
+    list-style: none;
 }
