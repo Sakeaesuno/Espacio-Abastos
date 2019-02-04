@@ -11,10 +11,26 @@
 p{
     position: absolute;
     right: 5%;
+    line-height: 150%;
+    font-family: sans-serif;
 }
-.hola{
+
+.calidad{
     color:black;
     position: absolute;
-    right: 5%;
-    top:20%
+    top:20%;
+    left: 70%;
+
+}
+.espacios{
+    color:black;
+    position: absolute;
+    top:26%;
+    left: 70%;
+}
+.necesidad{
+    color:black;
+    position: absolute;
+    top:33%;
+    left: 70%;
 }

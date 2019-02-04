@@ -22,6 +22,7 @@ ul, ol {
 .nav li a:hover {
     background-color:#057BCB;
     color:white;
+    /*Falta ajustar el color*/
 }
 .nav{
     position: absolute;
