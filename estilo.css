@@ -2,7 +2,15 @@
 /* Trabajo desarrollado por Javi Gonzalez, Maria Rocafull y Enrique Guaita */
 /*               Desarrollo de una página web Espai Abastos                */
 /* Esta página se desarrolla los estilos de la página web a realizar       */
-
+body{
+    background: url(img/fancy_deboss.png) repeat;
+    font-size: 12px;
+    font-family: sans-serif;
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    color: rgba(255,255,255,0.6)
+}
 ul#menu1 {
     padding: 0;
 }
@@ -41,7 +49,7 @@ header{
     text-align: center;
 }
 nav.nav {
-    background-color: white;
+    background-color: grey;
     height: 2cm;
 }
 #td1 {
