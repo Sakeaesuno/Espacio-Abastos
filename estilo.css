@@ -11,11 +11,6 @@ html, body {
 	padding:0;
 	color:rgba(255,255,255,0.6);
 }
-p.foot{
-    text-align: center;
-    text-transform: uppercase;
-    color: rgb(44, 44, 49);
-}
 section.logo {
     font-size: 450%;
     font-weight: bold;
@@ -117,3 +112,54 @@ nav.nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 1px solid rgb(170, 161, 161);
 }
+
+
+
+
+
+/* Pie de pagina */
+footer{
+    color: black;
+    text-align: center;
+
+}
+p.foot{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(44, 44, 49);
+}
+section.social{
+    color: aquamarine;
+}
+
+/* logos redes sociales */
+img.instagram{
+    width: 2cm;
+    height: 2cm;
+}
+img.facebook{
+    width: 1.5cm;
+    height: 1.5cm;
+    margin-bottom: 7px;
+}
+img.google{
+    width: 1.2cm;
+    height: 1.2cm;
+    margin-bottom: 14px;
+    margin-left: 12px;
+}
+
+img.pinterest{
+    width: 1.3cm;
+    height: 1.3cm;
+    margin-bottom: 13px;
+    margin-left: 12px;
+}
+img.Twitter{
+    width: 1.2cm;
+    height: 1.2cm;
+    margin-bottom: 13px;
+    margin-left: 12px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
