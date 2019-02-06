@@ -2,34 +2,82 @@
 /* Trabajo desarrollado por Javi Gonzalez, Maria Rocafull y Enrique Guaita */
 /*               Desarrollo de una página web Espai Abastos                */
 /* Esta página se desarrolla los estilos de la página web a realizar       */
-body{
-    background:#FCFAFA;
+
+ul#menu1 {
+    padding: 0;
 }
 
-ul, ol {
-    list-style:none;
+ul#menu1 li {
+    display: inline;
 }
-.nav > li {
-    float:left;
+
+ul#menu1 li a {
+    background-color:rgb(145, 171, 245);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
 }
-.nav li a {
-    background-color:#FCFAFA;
-    color:black;
-    text-decoration:none;
-    padding:10px 12px;
-    display:block;
+
+ul#menu li a {
+    background-color:orange;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
 }
-.nav li a:hover {
-    background-color:#057BCB;
-    color:white;
-    /*Falta ajustar el color*/
+
+ul#menu li a:hover {
+    background-color:black;
 }
-.nav{
-    position: absolute;
-    right:5%;
-    top: 10%;
+ul#menu1 li a:hover {
+    background-color:rgb(40, 198, 219);
 }
-.logo{
-    position: absolute;
-    left: 0%;
+ul#menu li {
+    display: inline;
+}
+header{
+    background-color: grey;
+    text-align: center;
+}
+nav.nav {
+    background-color: white;
+    height: 2cm;
+}
+#td1 {
+    width: 90%;
+}
+#table1 {
+    text-align: center;
+    color: rgb(3, 3, 209);
+}
+#article1 {
+    text-align: center;
+}
+#imgportada {
+    width: 70%;
+    height: 70%;
+}
+#footer1 {
+    background-color: grey;
+    text-align: center;
+}
+#pfooter {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+}
+#td2 {
+    width: 90%;
+    font-size: 150%;
+
+}
+#table2 {
+    text-align: center;
+    color: rgb(3, 3, 209);
+}
+#table3 {
+    text-align: center;
+    color: rgb(3, 3, 209);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgb(170, 161, 161);
 }
