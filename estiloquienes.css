@@ -18,18 +18,24 @@ section.foto {
     margin-right: 300px;
     margin-top: 50px;
 }
-section.foto2{
-    float: right;
-    margin-right: 300px;
-    margin-top: 50px;
-}
 section.informacion2 {
     color: black;
     font-size: 1.2rem;
     border: 4px dashed grey;
     width: 50%;
     float: left;
-    margin-top: 50px;
+    margin-top: 200px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 7px;
+}
+section.informacion3 {
+    color: black;
+    font-size: 1.2rem;
+    border: 4px dashed grey;
+    width: 50%;
+    float: left;
+    margin-top: 100px;
     margin-left: 10px;
     padding: 10px;
     border-radius: 7px;
