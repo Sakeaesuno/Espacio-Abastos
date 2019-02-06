@@ -24,8 +24,9 @@ section.logo {
     background-position-y: 200px;
     }
 p.titulo{
-    color: rgb(255, 0, 179);
+    color: rgb(145, 171, 245);
     text-shadow: blue;
+    text-decoration: none;
 }
 header{
     background-color: white;
@@ -67,7 +68,11 @@ ul#menu li {
 }
 
 nav.nav {
+<<<<<<< HEAD
     background:url(img/fondo\ nav.jpg)
+=======
+    background-color: grey;
+>>>>>>> 73ca4bafece57f04ff921c5bf39716fc969d170b
     height: 2cm;
 }
 #td1 {
