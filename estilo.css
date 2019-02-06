@@ -11,6 +11,11 @@ html, body {
 	padding:0;
 	color:rgba(255,255,255,0.6);
 }
+p.foot{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(44, 44, 49);
+}
 section.logo {
     font-size: 450%;
     font-weight: bold;
