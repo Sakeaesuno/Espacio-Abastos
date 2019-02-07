@@ -5,7 +5,7 @@
 html, body {
     background:#eaeaea url(../img/fondo.jpg)no-repeat;
     background-size: 100%;
-    background-position-y: 73% ;
+    background-position-y: -45% ;
 	font-size:12px;
 	font-family:"Open Sans", serif;
 	min-width:960px;
@@ -19,24 +19,23 @@ html, body {
 section.logo {
     font-size: 450%;
     font-weight: bold;
-  
+  color: white;
     letter-spacing: 10px;
     text-align: center;
     text-shadow: black;
-    border: 0px solid black;
     font-family: 'Sigmar One', cursive;
     text-decoration: none;
     }
 p.titulo{
-    color: rgb(145, 171, 245);
-    text-shadow: rgb(8, 8, 12);
+    color: white;
     text-decoration: none;
     border: 0px solid black;
 }
 header{
-    background:url(../img/fondo\ nav.jpg)no-repeat;
-    background-size: 100%;
-    background-position-y:80%;
+    background:url(../img/fondopizarra.jpg);
+    background-size: 60%;
+    background-position-y:60%;
+    background-position-x:50%;
     text-align: center;
     height: 80000000%;
    
@@ -79,9 +78,10 @@ ul#menu li {
 
 /* NAV */
 nav.nav {
-    background:url(img/abastosexterior.jpg);
+    background:whitesmoke;
     background-position-y: 0px;
     height: 2cm;
+    background-size: 100%;
 }
 #td1 {
     width: 90%;
@@ -135,17 +135,31 @@ p.necesidad{
     z-index: 20;
     color: black;
 }
+/* imagnes logos titulos */
+img.izquierda{
+    position: absolute;
+    top:5.5%;
+    left:16%;
+    width: 7.5%;
+    border:4px solid black;}
+img.derecha{
+    position: absolute;
+    right: 16%;
+    top:5.5%;
+    width: 7.5%;
+    border:4px solid black;
+}
 
-
-
-
+.logo a {
+    text-decoration: none;
+}
 
 /* imagenes portada */
 img.exterior{
-    width: 50%;
+    width: 30%;
     height:0%;
-   
     z-index:0;
+    border: 4px solid black
 }
 section.exterior{
     text-align: center;
