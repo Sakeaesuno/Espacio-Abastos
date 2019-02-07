@@ -3,7 +3,9 @@
 /*               Desarrollo de una página web Espai Abastos                */
 /* Esta página se desarrolla los estilos de la página web a realizar       */
 html, body {
-	background:#eaeaea url(img/fancy_deboss.png) repeat;
+    background:#eaeaea url(../img/fondo.jpg)no-repeat;
+    background-size: 100%;
+    background-position-y: 73% ;
 	font-size:12px;
 	font-family:"Open Sans", serif;
 	min-width:960px;
@@ -11,27 +13,34 @@ html, body {
 	padding:0;
 	color:rgba(255,255,255,0.6);
 }
+
+
+/* --------------------------------------------------------------------------------- */
 section.logo {
     font-size: 450%;
     font-weight: bold;
-    text-transform: uppercase;
+  
     letter-spacing: 10px;
     text-align: center;
     text-shadow: black;
-    border: 4px solid black;
+    border: 0px solid black;
     font-family: 'Sigmar One', cursive;
-    background:url(img/fondo\ nav.jpg);
-    background-position-y: 200px;
+    text-decoration: none;
     }
 p.titulo{
     color: rgb(145, 171, 245);
-    text-shadow: blue;
+    text-shadow: rgb(8, 8, 12);
     text-decoration: none;
+    border: 0px solid black;
 }
 header{
-    background-color: white;
+    background:url(../img/fondo\ nav.jpg)no-repeat;
+    background-size: 100%;
+    background-position-y:80%;
     text-align: center;
-    height: 400%;
+    height: 80000000%;
+   
+    
 }
 ul#menu1 {
     padding: 0;
@@ -67,12 +76,11 @@ ul#menu li {
     display: inline;
 }
 
+
+/* NAV */
 nav.nav {
-<<<<<<< HEAD
-    background:url(img/fondo\ nav.jpg)
-=======
-    background-color: grey;
->>>>>>> 73ca4bafece57f04ff921c5bf39716fc969d170b
+    background:url(img/abastosexterior.jpg);
+    background-position-y: 0px;
     height: 2cm;
 }
 #td1 {
@@ -114,7 +122,34 @@ nav.nav {
 }
 
 
+/* texto portada */
+p.calidad{
+    z-index: 20;
+    color: black;
+}
+p.espacios{
+    z-index: 20;
+    color: black;
+}
+p.necesidad{
+    z-index: 20;
+    color: black;
+}
 
+
+
+
+
+/* imagenes portada */
+img.exterior{
+    width: 50%;
+    height:0%;
+   
+    z-index:0;
+}
+section.exterior{
+    text-align: center;
+}
 
 
 /* Pie de pagina */
