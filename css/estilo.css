@@ -32,12 +32,12 @@ p.titulo{
     border: 0px solid black;
 }
 header{
-    background:url(../img/fondopizarra.jpg);
+    background:url(../img/fondopizarra.jpg)repeat-x;
     background-size: 60%;
     background-position-y:60%;
     background-position-x:50%;
     text-align: center;
-    height: 80000000%;
+   
    
     
 }
@@ -79,7 +79,7 @@ ul#menu li {
 /* NAV */
 nav.nav {
     background:whitesmoke;
-    background-position-y: 0px;
+    background-position-y: 10px;
     height: 2cm;
     background-size: 100%;
 }
