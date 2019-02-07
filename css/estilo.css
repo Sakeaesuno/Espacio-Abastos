@@ -161,12 +161,28 @@ img.derecha{
 
 /* imagenes portada */
 img.exterior{
-    width: 30%;
-    height:0%;
+    width: 16.5%;
+    height:30%;
     z-index:0;
-    border: 4px solid black
+    border: 4px solid black;
+   
 }
 section.exterior{
+    text-align: center;
+}
+img.marco{
+    width: 35%;
+    height:0%;
+    z-index: inherit 1;
+  
+    
+}
+section.marco{
+    text-align: center;
+    position: absolute;
+    right: 23%;
+    top:39.9%;
+    width: 54%;
     text-align: center;
 }
 
