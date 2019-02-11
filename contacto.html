@@ -5,19 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Espacio Abastos</title>
-    <link rel="stylesheet" href="estilo.css" type="text/css">
-    <!--Hecho por Maria Rocafull, Javier Gonzales y Quique Guaita-->
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="css/estilocontacto.css" type="text/css">
+    <!--Hecho por Maria Rocafull, Javier Gonzalez y Quique Guaita-->
 
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="img/WhatsApp Image 2019-02-03 at 14.40.29.jpeg" class="logo" ></a>
-        <ul class='nav'>
-            <li><a href="quienes.html">¿Quienes somos?</a></li>
-            <li><a href="ubicacion.html">Ubicacion</a></li>
-            <li><a href="espacios.html">Espacios</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+        <br>
+        <section class="logo"><a href="index.html"><p class="titulo">Espai Abastos</p></a></section>   
+            <img class="izquierda" src="img/logoabastos.jpg" alt="izquierda">
+            <img class="derecha" src="img/logoabastos.jpg" alt="derecha">
+            <nav class="nav">
+        <br>
+            <ul id="menu1">
+                <li><a href="quienes.html">Quienes Somos</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+                <li><a href="espacios.html">Espacios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>  
+        </nav>
+    <hr>
+    <hr>
     </header>
+    <main>
+        <section class="registro">
+        <h1>Registro a nuestra página web:</h1>
+        <img src="img/registros-bedae0ddfc28b0c8e249c65698cc3b64ff7edd5f9524b450edc5ba99514f1864.png" width="50">
+        <form action="contacto.php" method="get">  
+        <details open>
+            <summary>Datos personales</summary>            
+                <p>Nombre:<input type="text" name="nombre" size="40" placeholder="Escriba su nombre" required></p>
+                <p>Apellidos: <input type="text" name="apellidos" size="60" placeholder="Escriba sus apellidos" required></p>
+                <p>Teléfono fijo: <input type="text" name="nombre" size="40" required></p>
+                <p>Móvil: <input type="text" name="nombre" size="40"></p>
+                <p>Dirección: <input type="text" name="nombre" size="40" required></p>
+                <p>Población: <input type="text" name="nombre" size="40" required></p>
+                <p>Estaco Civil: 
+                    <input type="radio" name="scp" value="s">Soltero
+                    <input type="radio" name="scp" value="c">Casado
+                    <input type="radio" name="scp" value="p">Emparejado</p>
+                <p>Usuario: <input type="text" name="Usuario" maxlength="20" required></p>
+                <p>Contraseña <input type="password" name="password" minlength="6" required ></p>
+                <p>Repita Contraseña <input type="password" name="password" minlength="6" required ></p>
+                <p><input type="submit" value="Registrarse" required></p>
+                <p><input type="submit" value="Cancelar" required></p>
+        </details>
+        </form>
+        </section>
+        <section class="contacto">
+        <h1>Contáctenos también en:</h1>
+        <div>
+            <p>Teléfono de contacto: (+34) 961 20 58 75</p>
+            <p>Página Web: <a href="http://mestreacasa.gva.es/web/4602504000/"><p class="holi">IES Abastos</p></a></p>
+        </div>
+
+        </section>
+    </main>
+    <footer>
+            <p class="foot">&copy;espai abastos</p>
+            <section class="social">
+                
+                <a title="Instagram" href="http://www.pepe.com"><img class="instagram" src="img/instagram.png" alt="Instagram" /></a>
+                <a title="Facebook" href="http://www.pepe.com"><img class="facebook" src="img/facebook.png" alt="Facebook" /></a>
+                <a title="Google+" href="http://www.pepe.com"><img class="google" src="img/google.png" alt="Google+" /></a>
+                <a title="Pinterest" href="http://www.pepe.com"><img class="pinterest" src="img/pinterest.png" alt="Pinterest" /></a>
+                <a title="Twitter" href="http://www.pepe.com"><img class="Twitter" src="img/twitter.png" alt="Twitter" /></a>
+    
+            </section>
+        </footer>
 </body>
 </html>

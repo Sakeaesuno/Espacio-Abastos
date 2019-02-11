@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* Trabajo desarrollado por Javi Gonzalez, Maria Rocafull y Enrique Guaita */
+/*               Desarrollo de una página web Espai Abastos                */
+/* Esta página se desarrolla los estilos de la página web a realizar       */
+
+p.psect {
+    color: firebrick;
+    font-size: 1.5rem;
+    background-color: rgb(211, 147, 147) transparent;
+    border: 1px red dotted;
+}
+article {
+    padding: 20px;
+    width: 20%;
+    height: 20%;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+} 
+article:hover {
+    width: 25%;
+    height: 25%;
+    z-index: 3;
+}
+article.topleft {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    background: url(../img/jejotes.jpg);
+    background-size: 100%;
+}
+article.topright {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    background: url(../img/Complejo\ Deportivo\ Abastos\ -bajo\ peso.JPG);
+    background-size: 100%;
+}
+article.middle {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    background: url(../img/abastosexterior.jpg);
+    background-size: 100%;
+    z-index: 2;
+}
+article.bottomleft{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    background: url(../img/IMG_20190205_145246.jpg);
+    background-size: 100%;
+}
+article.bottomright {
+    position: absolute;
+    top: 90%;
+    right: 15%;
+    background: url(../img/Cafeteria1.jpg);
+    background-size: 100%;
+    z-index: 2;
+}
+footer {
+    position: absolute;
+    top: 120%;
+}

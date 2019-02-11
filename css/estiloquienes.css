@@ -2,21 +2,26 @@
 /* Trabajo desarrollado por Javi Gonzalez, Maria Rocafull y Enrique Guaita */
 /*               Desarrollo de una página web Espai Abastos                */
 /* Esta página se desarrolla los estilos de la página web a realizar       */
+
+
+/* Estilo de las fotos */
+section.foto {
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+/* Estilos de las section de texto */
 section.informacion {
     color: black;
     font-size: 1.2rem;
     border: 4px dashed grey;
     width: 50%;
     float: left;
-    margin-top: 50px;
-    margin-left: 10px;
+    margin-top: 8%;
+    margin-left: 4%;
     padding: 10px;
     border-radius: 7px;
-}
-section.foto {
-    float: right;
-    margin-right: 300px;
-    margin-top: 50px;
 }
 section.informacion2 {
     color: black;
@@ -24,8 +29,8 @@ section.informacion2 {
     border: 4px dashed grey;
     width: 50%;
     float: left;
-    margin-top: 200px;
-    margin-left: 10px;
+    margin-top: 7%;
+    margin-left: 4%;
     padding: 10px;
     border-radius: 7px;
 }
@@ -35,8 +40,64 @@ section.informacion3 {
     border: 4px dashed grey;
     width: 50%;
     float: left;
-    margin-top: 100px;
-    margin-left: 10px;
+    margin-top: 5%;
+    margin-left: 4%;
     padding: 10px;
     border-radius: 7px;
+}
+/* Estilos sobre lainformacion de la empresa */
+section.empresa1 {
+    color: black;
+    float: right;
+    margin-top: 7%;
+    margin-left: 5%;
+    border: 4px dashed grey;
+    width: 50%;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+section.empresa2 {
+    color: black;
+    float: right;
+    margin-top: 7%;
+    margin-left: 5%;
+    border: 4px dashed grey;
+    width: 50%;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 7px;
+}
+section.empresa3 {
+    color: black;
+    float: right;
+    margin-top: 7%;
+    margin-left: 5%;
+    border: 4px dashed grey;
+    width: 50%;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 7px;
+}
+/* Estilo sobre las fotos de la empresa */
+
+section.foto1 {
+    float: left;
+    margin-top: 6%;
+    margin-left: 4%
+}
+section.foto2{
+    float: left;
+    margin-top: 6%;
+    margin-left: 4%
+}
+section.foto3{
+    float: left;
+    margin-top: 6%;
+    margin-left: 4%
+}
+footer {
+    position: absolute;
+    top: 250%;
 }
