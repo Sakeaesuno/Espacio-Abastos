@@ -2,24 +2,28 @@
 /* Trabajo desarrollado por Javi Gonzalez, Maria Rocafull y Enrique Guaita */
 /*               Desarrollo de una página web Espai Abastos                */
 /* Esta página se desarrolla los estilos de la página web a realizar       */
-
+body{
+    background: url(../img/fondos/fondo\ largo.png)repeat-y;
+    background-size: 100%;
+}
 p.psect {
-    color: firebrick;
+    color: black;
     font-size: 1.5rem;
     background-color: rgb(211, 147, 147) transparent;
-    border: 1px red dotted;
+    border: 2px black;
 }
 article {
     padding: 20px;
     width: 20%;
     height: 20%;
     -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s, height 4s;
+    transition: width 2s, height 4s;   
 } 
 article:hover {
     width: 25%;
     height: 25%;
     z-index: 3;
+       
 }
 article.topleft {
     position: absolute;
@@ -27,6 +31,7 @@ article.topleft {
     left: 5%;
     background: url(../img/jejotes.jpg);
     background-size: 100%;
+    border: 3px solid black;
 }
 article.topright {
     position: absolute;
@@ -34,6 +39,7 @@ article.topright {
     right: 15%;
     background: url(../img/Complejo\ Deportivo\ Abastos\ -bajo\ peso.JPG);
     background-size: 100%;
+    border: 3px solid black;
 }
 article.middle {
     position: absolute;
@@ -42,6 +48,7 @@ article.middle {
     background: url(../img/abastosexterior.jpg);
     background-size: 100%;
     z-index: 2;
+    border: 3px solid black;
 }
 article.bottomleft{
     position: absolute;
@@ -49,6 +56,7 @@ article.bottomleft{
     left: 5%;
     background: url(../img/IMG_20190205_145246.jpg);
     background-size: 100%;
+    border: 3px solid black;
 }
 article.bottomright {
     position: absolute;
@@ -57,8 +65,31 @@ article.bottomright {
     background: url(../img/Cafeteria1.jpg);
     background-size: 100%;
     z-index: 2;
+    border: 3px solid black;
 }
 footer {
     position: absolute;
     top: 120%;
 }
+
+/* Fade */
+.hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+    
+  }
+  .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+    background-color: rgb(255, 255, 255);opacity: 0.5;
+    color: white;
+    border-radius : 30% ;
+    
+  }
+  
