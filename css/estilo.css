@@ -2,17 +2,7 @@
 /* Trabajo desarrollado por Javi Gonzalez, Maria Rocafull y Enrique Guaita */
 /*               Desarrollo de una página web Espai Abastos                */
 /* Esta página se desarrolla los estilos de la página web a realizar       */
-html, body {
-    background:#eaeaea url(../img/fondo.jpg)no-repeat;
-    background-size: 100%;
-    background-position-y: -45% ;
-	font-size:12px;
-	font-family:"Open Sans", serif;
-	min-width:960px;
-	margin:0;
-	padding:0;
-	color:rgba(255,255,255,0.6);
-}
+
 
 
 /* --------------------------------------------------------------------------------- */

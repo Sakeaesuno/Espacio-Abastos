@@ -4,6 +4,19 @@
 /* Esta página se desarrolla los estilos de la página web a realizar       */
 
 
+
+
+/* fondo */
+body{
+    background: url(../img/fondos/fondo\ largo.png)repeat-y;
+    background-size: 100%;
+}
+    
+	
+	
+	
+	
+
 /* Estilo de las fotos */
 section.foto {
     float: right;
