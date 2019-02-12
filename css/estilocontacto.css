@@ -7,6 +7,18 @@ body{
     background: url(../img/fondos/fondo\ largo.png)repeat-y;
     background-size: 100%;
 }
+html, body {
+    
+    background-size: 100%;
+    
+	font-size:12px;
+	font-family:"Open Sans", serif;
+	min-width:960px;
+	margin:0;
+	padding:0;
+	color:rgba(255,255,255,0.6);
+	
+}
 section.registro {
     background: url(../img/background2-1024x640.jpg);
     border: 5px grey dotted;

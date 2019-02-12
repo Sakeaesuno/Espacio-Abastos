@@ -67,6 +67,7 @@ header{
   }
 ul#menu1 {
     padding: 0;
+    
 }
 
 ul#menu1 li {
@@ -79,6 +80,7 @@ ul#menu1 li a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px 4px 0 0;
+    margin-top: 1%;
 }
 
 ul#menu li a {
@@ -106,6 +108,7 @@ nav.nav {
     background-position-y: 50%;
     height: 2cm;
     background-size: 100%;
+    margin-top: %;
 }
 #td1 {
     width: 90%;
