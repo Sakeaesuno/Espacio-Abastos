@@ -14,6 +14,7 @@ html, body {
 	color:rgba(255,255,255,0.6);
 	
 }
+
 /* Grow */
 .hvr-grow {
 	display: inline-block;
@@ -22,7 +23,7 @@ html, body {
 	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	-webkit-transition-duration: 0.3s;
-	transition-duration: 0.3s;
+	transition-duration: 1s;
 	-webkit-transition-property: transform;
 	transition-property: transform;
   }
@@ -38,7 +39,9 @@ html, body {
     width: 17%;
     border:4px solid black;
 	}
-
+		
+  img.piz1:hover {filter: opacity(.95);}
+	
 	img.piz2{
 		position: absolute;
     top:65%;
@@ -46,6 +49,7 @@ html, body {
     width: 17%;
     border:4px solid black;
 	}
+	img.piz2:hover {filter: opacity(.95);}
 
 	img.piz3{
 		position: absolute;
@@ -54,6 +58,9 @@ html, body {
     width:17%;
     border:4px solid black;
 	}
+
+	img.piz3:hover {filter: opacity(.95);}
+
 	p.calidad{
 		position: absolute;
 		top:87%;

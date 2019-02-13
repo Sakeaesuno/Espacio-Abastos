@@ -45,7 +45,7 @@ article.topleft {
     background-size: 100%;
     border: 3px solid black;
 }
-article.topright {
+article.topriht {
     position: absolute;
     top: 50%;
     right: 15%;
@@ -70,6 +70,7 @@ article.bottomleft{
     background-size: 100%;
     border: 3px solid black;
 }
+
 article.bottomright {
     position: absolute;
     top: 90%;
@@ -92,10 +93,7 @@ footer {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     overflow: hidden;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: color, background-color;
-    transition-property: color, background-color;
+  
     
   }
   .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
@@ -104,4 +102,382 @@ footer {
     border-radius : 30% ;
     
   }
+ 
+  .hvr-fade:hover{
+    z-index:1;
+	filter:alpha(opacity=70);
+	-moz-opacity:.70;
+	opacity:.70;
+  }
+
+  .hvr-fade:hover { 
+	opacity: 100;
+} 
+
+.hvr-fade { 
+	z-index:1;
+	filter:alpha(opacity=70);
+	-moz-opacity:.70;
+    opacity:.70;
+    
+}
+
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active { 
+	opacity: 100;
+}
+/* prueba */
+
+
+/* arriba izquierda */
+.desvanecer:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+  * {
+    margin:0;
+    padding:0;
+    color:#fff;
+    font-family:Arial;
+  }
   
+  div#imagen {
+    width: 500px;
+    height: 300px;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url(../img/jejotes.jpg);
+    margin: 30px auto;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    background: url(../img/jejotes.jpg);   
+    background-size: 100%;
+    border: 3px solid black;
+  }
+  
+  div#info {
+    position:absolute;
+    overflow:hidden;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity:0;
+    transition: opacity 0.3s;
+  }
+  
+  div#imagen:hover div#info {
+    opacity:1;
+  }
+  
+  p#headline {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-left: -75px;
+    margin-top: 15px;
+    transition: margin-left 0.3s;
+  }
+  
+  div#imagen:hover p#headline {
+    margin-left: 115px;
+  }
+  
+  p#descripcion {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 200px;
+    transition: margin-top 0.4s;
+  }
+  
+  div#imagen:hover p#descripcion {
+    margin-top: 75px;
+  }
+
+
+  /* 2 */
+
+
+
+  .desvanecer:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+  * {
+    margin:0;
+    padding:0;
+    color:#fff;
+    font-family:Arial;
+  }
+  
+  div#imagen2 {
+    width: 500px;
+    height: 300px;
+    background-size: cover;/*sólo para ejemplo*/
+    margin: 30px auto;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    background: url(../img/Complejo\ Deportivo\ Abastos\ -bajo\ peso.JPG);
+    background-size: 100%;
+    border: 3px solid black;
+  }
+  
+  div#info {
+    position:absolute;
+    overflow:hidden;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity:0;
+    transition: opacity 0.3s;
+  }
+  
+  div#imagen2:hover div#info {
+    opacity:1;
+  }
+  
+  p#headline {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-left: -75px;
+    margin-top: 15px;
+    transition: margin-left 0.3s;
+  }
+  
+  div#imagen2:hover p#headline {
+    margin-left: 115px;
+  }
+  
+  p#descripcion {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 200px;
+    transition: margin-top 0.4s;
+  }
+  
+  div#imagen2:hover p#descripcion {
+    margin-top: 75px;
+  }
+
+
+  /* 3 */
+
+
+
+  .desvanecer:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+  * {
+    margin:0;
+    padding:0;
+    color:#fff;
+    font-family:Arial;
+  }
+  
+  div#imagen3 {
+    width: 500px;
+    height: 300px;
+    background-size: cover;/*sólo para ejemplo*/
+    margin: 30px auto;
+    position: absolute;
+   
+    
+    background-size: 100%;
+    border: 3px solid black;
+    position: absolute;
+    top: 55%;
+    left: 36.6%;
+    background: url(../img/abastosexterior.jpg);
+    background-size: 100%;
+    z-index: 2;
+    border: 3px solid black;
+  }
+  
+  div#info {
+    position:absolute;
+    overflow:hidden;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity:0;
+    transition: opacity 0.3s;
+  }
+  
+  div#imagen3:hover div#info {
+    opacity:1;
+  }
+  
+  p#headline {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-left: -75px;
+    margin-top: 15px;
+    transition: margin-left 0.3s;
+  }
+  
+  div#imagen3:hover p#headline {
+    margin-left: 115px;
+  }
+  
+  p#descripcion {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 200px;
+    transition: margin-top 0.4s;
+  }
+  
+  div#imagen3:hover p#descripcion {
+    margin-top: 75px;
+  }
+   
+   
+    /* 4 */
+
+.desvanecer:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+  * {
+    margin:0;
+    padding:0;
+    color:#fff;
+    font-family:Arial;
+  }
+  
+  div#imagen4 {
+    width: 500px;
+    height: 300px;
+    background-size: cover;/*sólo para ejemplo*/
+    margin: 30px auto;
+    position: absolute;
+   
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    background: url(../img/IMG_20190205_145246.jpg);
+    background-size: 100%;
+    border: 3px solid black;
+  }
+  
+  div#info {
+    position:absolute;
+    overflow:hidden;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity:0;
+    transition: opacity 0.3s;
+  }
+  
+  div#imagen4:hover div#info {
+    opacity:1;
+  }
+  
+  p#headline {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-left: -75px;
+    margin-top: 15px;
+    transition: margin-left 0.3s;
+  }
+  
+  div#imagen4:hover p#headline {
+    margin-left: 115px;
+  }
+  
+  p#descripcion {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 200px;
+    transition: margin-top 0.4s;
+  }
+  
+  div#imagen4:hover p#descripcion {
+    margin-top: 75px;
+  }
+
+
+   /* 5 */
+
+.desvanecer:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+  * {
+    margin:0;
+    padding:0;
+    color:#fff;
+    font-family:Arial;
+  }
+  
+  div#imagen5 {
+    width: 500px;
+    height: 300px;
+    background-size: cover;/*sólo para ejemplo*/
+    margin: 30px auto;
+    position: absolute;
+   
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    background: url(../img/Cafeteria1.jpg);
+    background-size: 100%;
+    z-index: 2;
+    border: 3px solid black;
+  }
+  
+  div#info {
+    position:absolute;
+    overflow:hidden;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity:0;
+    transition: opacity 0.3s;
+  }
+  
+  div#imagen5:hover div#info {
+    opacity:1;
+  }
+  
+  p#headline {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-left: -75px;
+    margin-top: 15px;
+    transition: margin-left 0.3s;
+  }
+  
+  div#imagen5:hover p#headline {
+    margin-left: 115px;
+  }
+  
+  p#descripcion {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 200px;
+    transition: margin-top 0.4s;
+  }
+  
+  div#imagen5:hover p#descripcion {
+    margin-top: 75px;
+  }

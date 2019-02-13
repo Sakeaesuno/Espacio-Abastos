@@ -26,7 +26,7 @@ p.titulo{
     
 }
 header{
-    background:url(../img/rayada.gif)repeat-x;
+    background:url(../img/fondopizarra.jpg)repeat-x;
     background-size: 60%;
     background-position-y:60%;
     background-position-x:50%;
@@ -204,8 +204,6 @@ p.necesidad{
     color: black;
 }
 
-
-
 /* imagnes logos titulos */
 img.izquierda{
     position: absolute;
@@ -221,6 +219,8 @@ img.derecha{
     border:4px solid black;
 }
 /* ------------------------------------------------------------------------------------ */
+
+
 
 
 /* imagenes portada */
@@ -275,34 +275,73 @@ section.social{
 
 /* logos redes sociales */
 img.instagram{
-    width: 2cm;
-    height: 2cm;
-    margin-left: -6%;
+    width: 1.2cm;
+    height: 1.2cm;
+    margin-left: -13.5%;
+    margin-bottom: 3.2%;
 }
+img.instagram:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #635f5c;
+    -webkit-box-shadow: 0px 0px 15px 15px #807670;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    }
 img.facebook{
-    width: 1.5cm;
-    height: 1.5cm;
-    margin-bottom: 7px;
+    width: 1.3cm;
+    height: 1.3cm;
+    margin-bottom: 10px;
     margin-left: -5%;
 }
+img.facebook:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #635f5c;
+    -webkit-box-shadow: 0px 0px 15px 15px #807670;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    }
 img.google{
     width: 1.2cm;
     height: 1.2cm;
     margin-bottom: 14px;
     margin-left: -5px;
 }
-
+img.google:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #635f5c;
+    -webkit-box-shadow: 0px 0px 15px 15px #807670;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    }
 img.pinterest{
     width: 1.3cm;
     height: 1.3cm;
     margin-bottom: 13px;
     margin-left: -5px;
 }
+img.pinterest:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #635f5c;
+    -webkit-box-shadow: 0px 0px 15px 15px #807670;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    }
 img.Twitter{
     width: 1.2cm;
     height: 1.2cm;
     margin-bottom: 13px;
     margin-left:*-5px;
 }
-
+img.Twitter:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #635f5c;
+    -webkit-box-shadow: 0px 0px 15px 15px #807670;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    }
 /* ----------------------------------------------------------------------------------------------------------------- */
