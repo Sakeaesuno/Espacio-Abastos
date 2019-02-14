@@ -207,16 +207,63 @@ p.necesidad{
 /* imagnes logos titulos */
 img.izquierda{
     position: absolute;
-    top:5.5%;
+    top:4.3%;
     left:16%;
     width: 7.5%;
-    border:4px solid black;}
+    border:4px solid black;
+    -webkit-transform:scale(1.3);transform:scale(1.2);
+    overflow: hidden;
+    filter: grayscale(80%);
+    border-radius: 50%;
+    transition: 0.56s;
+    -webkit-transform: rotate(360deg);transform: rotate(1080deg);
+
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    filter: shadow(color=#999999, direction=135, strength=2);
+   
+}
 img.derecha{
     position: absolute;
     right: 16%;
-    top:5.5%;
+    top:4.3%;
     width: 7.5%;
     border:4px solid black;
+    -webkit-transform:scale(1.3);transform:scale(1.2);
+    overflow: hidden;
+    filter: grayscale(80%);
+    border-radius: 50%;
+    transition: 0.56s;
+    -webkit-transform: rotate(360deg);transform: rotate(1080deg);
+
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    filter: shadow(color=#999999, direction=135, strength=2);
+}
+
+img.derecha:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.2);
+    overflow: hidden;
+    filter: grayscale(0%);
+    border-radius: 0%;
+    transition: 0.56s;
+    -webkit-transform: rotate(360deg);transform: rotate(1080deg);
+
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    filter: shadow(color=#999999, direction=135, strength=2);
+}
+img.izquierda:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.2);
+    overflow: hidden;
+    filter: grayscale(0%);
+    border-radius: 0%;
+    transition: 0.56s;
+    -webkit-transform: rotate(360deg);transform: rotate(1080deg);
+
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    filter: shadow(color=#999999, direction=135, strength=2);
 }
 /* ------------------------------------------------------------------------------------ */
 
@@ -234,6 +281,8 @@ section.exterior{
     text-align: center;
     margin-top: 5%;
 }
+
+
 /* img.marco{
     width: 35%;
     height:0%;
